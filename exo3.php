@@ -28,8 +28,14 @@ $somme=1000;
 $fin=2031;
 for($i=2021; $i<=$fin; $i++)
 {
+   
     echo "le 1er janvier $i la somme est égale à $somme <br>";
+    
     $somme=$somme*1.0075;
+
+
+    
+   echo "test";
 }
 
 ?>
